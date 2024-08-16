@@ -1,8 +1,8 @@
 public class EleitoresMunicipio {
-    private int votos;
-    private int branco;
-    private int nulo;
-    private int valido;
+    private double votos;
+    private double branco;
+    private double nulo;
+    private double valido;
     
     public EleitoresMunicipio(double votos, double branco, double nulo, double valido){
      this.votos = votos;
