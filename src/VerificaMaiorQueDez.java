@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class VerificaMaiorQueDez {
      public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         //Criando classe scanner
+        Scanner scanner = new Scanner(System.in); 
+        
         //Entrada valores
         System.out.print("Digite um valor: ");
         double valor = scanner.nextDouble();
